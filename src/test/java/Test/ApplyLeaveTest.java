@@ -13,7 +13,8 @@ public class ApplyLeaveTest extends BaseTest {
 		login.enterUsername(testData.getEmail());
 	    login.enterPassword(getData.getKeyValue("passwordEmp"));
 	    login.loginBtn();
-	    
+
+		//Applying Leave
 		ApplyLeavePage applyleave=new ApplyLeavePage(driver);
 		applyleave.moveToLeaveMangement();
 		applyleave.validatingLeaveToManagement();

@@ -9,6 +9,7 @@ import Pages.EmployeeListPage;
 
 public class DeleteEmployeeTest extends AddEmployeeTest {
     public void deleteEmployeeTest() throws IOException {
+        //Deleting the employee
     	
 		EmployeeListPage employeeList=new EmployeeListPage(driver);
         employeeList.serachEmployee(testData.getEmpId());
